@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import madina from './images/madina.jpg';
-import HeaderMenu from './HeaderMenu';
+import PrimarySearchAppBar from './PrimarySearchAppBar';
 
 function App() {
   return (
     <div className="App">
-    <HeaderMenu/>
+    <PrimarySearchAppBar/>
       <img src={madina}/>
     </div>
   );
